@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11 Meses Juntos ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Pantalla de bienvenida -->
+        <div id="welcome-screen" class="screen active">
+            <div class="heart">💖</div>
+            <h1>Hoy cumplimos</h1>
+            <div class="counter">11 MESES</div>
+            <p>Juntos, creando nuestra historia</p>
+            <button onclick="showMemories()">Ver nuestro recorrido</button>
+        </div>
+
+        <!-- Pantalla de recuerdos -->
+        <div id="memories-screen" class="screen">
+            <div class="back-button" onclick="showWelcome()">←</div>
+            <h2>Nuestros 11 Meses</h2>
+            
+            <div class="memory-card">
+                <div class="memory-date">Mes 1</div>
+                <div class="memory-text">Cuando todo comenzó 💫</div>
+            </div>
+            
+            <div class="memory-card">
+                <div class="memory-date">Mes 3</div>
+                <div class="memory-text">Nuestra primera aventura juntos 🌟</div>
+            </div>
+            
+            <div class="memory-card">
+                <div class="memory-date">Mes 6</div>
+                <div class="memory-text">Medio año de felicidad ❤️</div>
+            </div>
+            
+            <div class="memory-card">
+                <div class="memory-date">Mes 9</div>
+                <div class="memory-text">Cada día más unidos ✨</div>
+            </div>
+            
+            <div class="memory-card current">
+                <div class="memory-date">Hoy</div>
+                <div class="memory-text">11 meses contigo, y quiero muchos más 🌈</div>
+            </div>
+            
+            <div class="photo-gallery">
+                <div class="photo-placeholder">📸 (Aquí puedes agregar fotas)</div>
+            </div>
+        </div>
+
+        <!-- Mensaje especial -->
+        <div class="floating-message">
+            Te amo ❤️
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
